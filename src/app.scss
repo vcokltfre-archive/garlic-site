@@ -14,7 +14,7 @@ body::before {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url("garlic.svg");
+  background: url("/garlic.svg");
   background-size: 20rem;
   animation: scroll-anim 90s linear infinite;
   z-index: -1;
