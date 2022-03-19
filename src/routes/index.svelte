@@ -1,8 +1,10 @@
 <svelte:head>
   <title>Home - Garlic Bot</title>
-  <meta property="description" content="A bot for all your garlic trading and gamblind needs!" />
+  <meta property="description" content="A bot for all your garlic trading and gambling needs!" />
   <meta property="title" content="Home - Garlic Bot" />
   <meta property="og:thumbnail" content="https://garlic.vco.sh/icon.png" />
+  <meta property="og:image" content="https://garlic.vco.sh/icon.png" />
+  <meta property="theme-color" content="#87ceeb" />
 </svelte:head>
 
 <div class="container">
