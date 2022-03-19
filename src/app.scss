@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+:root {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: $col-bg;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("garlic.svg");
+  background-size: 20rem;
+  animation: scroll-anim 90s linear infinite;
+  z-index: -1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+@keyframes scroll-anim {
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body::before {
+    animation: scroll-anim 10s linear infinite;
+  }
+}

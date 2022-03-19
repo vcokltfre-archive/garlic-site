@@ -1,0 +1,8 @@
+$col-bg: #2c2c2c;
+$col-bg-dark: darken($col-bg, 4%);
+$col-bg-darker: darken($col-bg, 8%);
+$col-bg-light: lighten($col-bg, 4%);
+$col-bg-lighter: lighten($col-bg, 8%);
+$col-fg-primary: #f6f6f6;
+$col-bg-cta: rgb(120, 120, 207);
+$col-bg-cta-hover: lighten($col-bg-cta, 4%);
